@@ -1,0 +1,283 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Source Code Cloud\\AL_NOOR_10042026\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2F92A94A-2721-4611-80DD-A85B2B61479D}|Empire_ERP\\Empire_ERP.csproj|d:\\source code cloud\\al_noor_10042026\\empire_erp\\wwwroot\\js\\customjs\\empr_itemmaster.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{2F92A94A-2721-4611-80DD-A85B2B61479D}|Empire_ERP\\Empire_ERP.csproj|solutionrelative:empire_erp\\wwwroot\\js\\customjs\\empr_itemmaster.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFA591DF-3B05-4282-A6D1-2A95C9B63BB7}|Empire_ERP.Infrastructure\\Empire_ERP.Infrastructure.csproj|d:\\source code cloud\\al_noor_10042026\\empire_erp.infrastructure\\repositories\\itemmasterrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AFA591DF-3B05-4282-A6D1-2A95C9B63BB7}|Empire_ERP.Infrastructure\\Empire_ERP.Infrastructure.csproj|solutionrelative:empire_erp.infrastructure\\repositories\\itemmasterrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F92A94A-2721-4611-80DD-A85B2B61479D}|Empire_ERP\\Empire_ERP.csproj|d:\\source code cloud\\al_noor_10042026\\empire_erp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{2F92A94A-2721-4611-80DD-A85B2B61479D}|Empire_ERP\\Empire_ERP.csproj|solutionrelative:empire_erp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFA591DF-3B05-4282-A6D1-2A95C9B63BB7}|Empire_ERP.Infrastructure\\Empire_ERP.Infrastructure.csproj|d:\\source code cloud\\al_noor_10042026\\empire_erp.infrastructure\\repositories\\closingshoprepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AFA591DF-3B05-4282-A6D1-2A95C9B63BB7}|Empire_ERP.Infrastructure\\Empire_ERP.Infrastructure.csproj|solutionrelative:empire_erp.infrastructure\\repositories\\closingshoprepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFA591DF-3B05-4282-A6D1-2A95C9B63BB7}|Empire_ERP.Infrastructure\\Empire_ERP.Infrastructure.csproj|d:\\source code cloud\\al_noor_10042026\\empire_erp.infrastructure\\repositories\\posdiscountitemwiserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AFA591DF-3B05-4282-A6D1-2A95C9B63BB7}|Empire_ERP.Infrastructure\\Empire_ERP.Infrastructure.csproj|solutionrelative:empire_erp.infrastructure\\repositories\\posdiscountitemwiserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F92A94A-2721-4611-80DD-A85B2B61479D}|Empire_ERP\\Empire_ERP.csproj|d:\\source code cloud\\al_noor_10042026\\empire_erp\\wwwroot\\js\\customjs\\empr_posdiscountitemwise.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{2F92A94A-2721-4611-80DD-A85B2B61479D}|Empire_ERP\\Empire_ERP.csproj|solutionrelative:empire_erp\\wwwroot\\js\\customjs\\empr_posdiscountitemwise.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F92A94A-2721-4611-80DD-A85B2B61479D}|Empire_ERP\\Empire_ERP.csproj|d:\\source code cloud\\al_noor_10042026\\empire_erp\\controllers\\postransactionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F92A94A-2721-4611-80DD-A85B2B61479D}|Empire_ERP\\Empire_ERP.csproj|solutionrelative:empire_erp\\controllers\\postransactionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A110A123-28E2-4C96-B9A9-47CCCA7B9B01}|Empire_ERP.Core\\Empire_ERP.Core.csproj|d:\\source code cloud\\al_noor_10042026\\empire_erp.core\\services\\dropdownservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A110A123-28E2-4C96-B9A9-47CCCA7B9B01}|Empire_ERP.Core\\Empire_ERP.Core.csproj|solutionrelative:empire_erp.core\\services\\dropdownservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFA591DF-3B05-4282-A6D1-2A95C9B63BB7}|Empire_ERP.Infrastructure\\Empire_ERP.Infrastructure.csproj|d:\\source code cloud\\al_noor_10042026\\empire_erp.infrastructure\\repositories\\postransactionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AFA591DF-3B05-4282-A6D1-2A95C9B63BB7}|Empire_ERP.Infrastructure\\Empire_ERP.Infrastructure.csproj|solutionrelative:empire_erp.infrastructure\\repositories\\postransactionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F92A94A-2721-4611-80DD-A85B2B61479D}|Empire_ERP\\Empire_ERP.csproj|d:\\source code cloud\\al_noor_10042026\\empire_erp\\wwwroot\\js\\customjs\\empr_postransaction.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{2F92A94A-2721-4611-80DD-A85B2B61479D}|Empire_ERP\\Empire_ERP.csproj|solutionrelative:empire_erp\\wwwroot\\js\\customjs\\empr_postransaction.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFA591DF-3B05-4282-A6D1-2A95C9B63BB7}|Empire_ERP.Infrastructure\\Empire_ERP.Infrastructure.csproj|d:\\source code cloud\\al_noor_10042026\\empire_erp.infrastructure\\repositories\\membershipcardrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AFA591DF-3B05-4282-A6D1-2A95C9B63BB7}|Empire_ERP.Infrastructure\\Empire_ERP.Infrastructure.csproj|solutionrelative:empire_erp.infrastructure\\repositories\\membershipcardrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F92A94A-2721-4611-80DD-A85B2B61479D}|Empire_ERP\\Empire_ERP.csproj|d:\\source code cloud\\al_noor_10042026\\empire_erp\\views\\postransactions\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2F92A94A-2721-4611-80DD-A85B2B61479D}|Empire_ERP\\Empire_ERP.csproj|solutionrelative:empire_erp\\views\\postransactions\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F92A94A-2721-4611-80DD-A85B2B61479D}|Empire_ERP\\Empire_ERP.csproj|d:\\source code cloud\\al_noor_10042026\\empire_erp\\views\\closingshop\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2F92A94A-2721-4611-80DD-A85B2B61479D}|Empire_ERP\\Empire_ERP.csproj|solutionrelative:empire_erp\\views\\closingshop\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F92A94A-2721-4611-80DD-A85B2B61479D}|Empire_ERP\\Empire_ERP.csproj|d:\\source code cloud\\al_noor_10042026\\empire_erp\\wwwroot\\css\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{2F92A94A-2721-4611-80DD-A85B2B61479D}|Empire_ERP\\Empire_ERP.csproj|solutionrelative:empire_erp\\wwwroot\\css\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F92A94A-2721-4611-80DD-A85B2B61479D}|Empire_ERP\\Empire_ERP.csproj|d:\\source code cloud\\al_noor_10042026\\empire_erp\\views\\closingshop\\closingshop.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2F92A94A-2721-4611-80DD-A85B2B61479D}|Empire_ERP\\Empire_ERP.csproj|solutionrelative:empire_erp\\views\\closingshop\\closingshop.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F92A94A-2721-4611-80DD-A85B2B61479D}|Empire_ERP\\Empire_ERP.csproj|d:\\source code cloud\\al_noor_10042026\\empire_erp\\wwwroot\\js\\customjs\\empr_helper.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{2F92A94A-2721-4611-80DD-A85B2B61479D}|Empire_ERP\\Empire_ERP.csproj|solutionrelative:empire_erp\\wwwroot\\js\\customjs\\empr_helper.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "empr_ItemMaster.js",
+              "DocumentMoniker": "D:\\Source Code Cloud\\AL_NOOR_10042026\\Empire_ERP\\wwwroot\\js\\Customjs\\empr_ItemMaster.js",
+              "RelativeDocumentMoniker": "Empire_ERP\\wwwroot\\js\\Customjs\\empr_ItemMaster.js",
+              "ToolTip": "D:\\Source Code Cloud\\AL_NOOR_10042026\\Empire_ERP\\wwwroot\\js\\Customjs\\empr_ItemMaster.js",
+              "RelativeToolTip": "Empire_ERP\\wwwroot\\js\\Customjs\\empr_ItemMaster.js",
+              "ViewState": "AgIAAPQBAAAAAAAAAAAkwAQCAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2026-09-04T10:52:24.554Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ItemMasterRepository.cs",
+              "DocumentMoniker": "D:\\Source Code Cloud\\AL_NOOR_10042026\\Empire_ERP.Infrastructure\\Repositories\\ItemMasterRepository.cs",
+              "RelativeDocumentMoniker": "Empire_ERP.Infrastructure\\Repositories\\ItemMasterRepository.cs",
+              "ToolTip": "D:\\Source Code Cloud\\AL_NOOR_10042026\\Empire_ERP.Infrastructure\\Repositories\\ItemMasterRepository.cs",
+              "RelativeToolTip": "Empire_ERP.Infrastructure\\Repositories\\ItemMasterRepository.cs",
+              "ViewState": "AgIAACgCAAAAAAAAAAAowDACAABOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-04T10:46:31.787Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "empr_POSDiscountItemWise.js",
+              "DocumentMoniker": "D:\\Source Code Cloud\\AL_NOOR_10042026\\Empire_ERP\\wwwroot\\js\\Customjs\\empr_POSDiscountItemWise.js",
+              "RelativeDocumentMoniker": "Empire_ERP\\wwwroot\\js\\Customjs\\empr_POSDiscountItemWise.js",
+              "ToolTip": "D:\\Source Code Cloud\\AL_NOOR_10042026\\Empire_ERP\\wwwroot\\js\\Customjs\\empr_POSDiscountItemWise.js",
+              "RelativeToolTip": "Empire_ERP\\wwwroot\\js\\Customjs\\empr_POSDiscountItemWise.js",
+              "ViewState": "AgIAAFMAAAAAAAAAAAAkwGAAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2026-09-03T09:51:19.452Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "POSDiscountItemWiseRepository.cs",
+              "DocumentMoniker": "D:\\Source Code Cloud\\AL_NOOR_10042026\\Empire_ERP.Infrastructure\\Repositories\\POSDiscountItemWiseRepository.cs",
+              "RelativeDocumentMoniker": "Empire_ERP.Infrastructure\\Repositories\\POSDiscountItemWiseRepository.cs",
+              "ToolTip": "D:\\Source Code Cloud\\AL_NOOR_10042026\\Empire_ERP.Infrastructure\\Repositories\\POSDiscountItemWiseRepository.cs",
+              "RelativeToolTip": "Empire_ERP.Infrastructure\\Repositories\\POSDiscountItemWiseRepository.cs",
+              "ViewState": "AgIAADIAAAAAAAAAAAAgwEQAAABQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-03T09:49:43.031Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ClosingShopRepository.cs",
+              "DocumentMoniker": "D:\\Source Code Cloud\\AL_NOOR_10042026\\Empire_ERP.Infrastructure\\Repositories\\ClosingShopRepository.cs",
+              "RelativeDocumentMoniker": "Empire_ERP.Infrastructure\\Repositories\\ClosingShopRepository.cs",
+              "ToolTip": "D:\\Source Code Cloud\\AL_NOOR_10042026\\Empire_ERP.Infrastructure\\Repositories\\ClosingShopRepository.cs",
+              "RelativeToolTip": "Empire_ERP.Infrastructure\\Repositories\\ClosingShopRepository.cs",
+              "ViewState": "AgIAAKwAAAAAAAAAAAAuwL4AAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-25T13:33:45.494Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Source Code Cloud\\AL_NOOR_10042026\\Empire_ERP\\Views\\ClosingShop\\Index.cshtml",
+              "RelativeDocumentMoniker": "Empire_ERP\\Views\\ClosingShop\\Index.cshtml",
+              "ToolTip": "D:\\Source Code Cloud\\AL_NOOR_10042026\\Empire_ERP\\Views\\ClosingShop\\Index.cshtml",
+              "RelativeToolTip": "Empire_ERP\\Views\\ClosingShop\\Index.cshtml",
+              "ViewState": "AgIAADEBAAAAAAAAAAAAwFABAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-07-25T13:24:36.51Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "POSTransactionsController.cs",
+              "DocumentMoniker": "D:\\Source Code Cloud\\AL_NOOR_10042026\\Empire_ERP\\Controllers\\POSTransactionsController.cs",
+              "RelativeDocumentMoniker": "Empire_ERP\\Controllers\\POSTransactionsController.cs",
+              "ToolTip": "D:\\Source Code Cloud\\AL_NOOR_10042026\\Empire_ERP\\Controllers\\POSTransactionsController.cs",
+              "RelativeToolTip": "Empire_ERP\\Controllers\\POSTransactionsController.cs",
+              "ViewState": "AgIAAFwBAAAAAAAAAAAqwGsBAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-24T12:26:48.004Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Source Code Cloud\\AL_NOOR_10042026\\Empire_ERP\\appsettings.json",
+              "RelativeDocumentMoniker": "Empire_ERP\\appsettings.json",
+              "ToolTip": "D:\\Source Code Cloud\\AL_NOOR_10042026\\Empire_ERP\\appsettings.json",
+              "RelativeToolTip": "Empire_ERP\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-07-20T07:17:07.132Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "empr_POSTransaction.js",
+              "DocumentMoniker": "D:\\Source Code Cloud\\AL_NOOR_10042026\\Empire_ERP\\wwwroot\\js\\Customjs\\empr_POSTransaction.js",
+              "RelativeDocumentMoniker": "Empire_ERP\\wwwroot\\js\\Customjs\\empr_POSTransaction.js",
+              "ToolTip": "D:\\Source Code Cloud\\AL_NOOR_10042026\\Empire_ERP\\wwwroot\\js\\Customjs\\empr_POSTransaction.js",
+              "RelativeToolTip": "Empire_ERP\\wwwroot\\js\\Customjs\\empr_POSTransaction.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2026-07-24T13:10:35.395Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "DropdownService.cs",
+              "DocumentMoniker": "D:\\Source Code Cloud\\AL_NOOR_10042026\\Empire_ERP.Core\\Services\\DropdownService.cs",
+              "RelativeDocumentMoniker": "Empire_ERP.Core\\Services\\DropdownService.cs",
+              "ToolTip": "D:\\Source Code Cloud\\AL_NOOR_10042026\\Empire_ERP.Core\\Services\\DropdownService.cs",
+              "RelativeToolTip": "Empire_ERP.Core\\Services\\DropdownService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-25T13:39:49.962Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "MembershipCardRepository.cs",
+              "DocumentMoniker": "D:\\Source Code Cloud\\AL_NOOR_10042026\\Empire_ERP.Infrastructure\\Repositories\\MembershipCardRepository.cs",
+              "RelativeDocumentMoniker": "Empire_ERP.Infrastructure\\Repositories\\MembershipCardRepository.cs",
+              "ToolTip": "D:\\Source Code Cloud\\AL_NOOR_10042026\\Empire_ERP.Infrastructure\\Repositories\\MembershipCardRepository.cs",
+              "RelativeToolTip": "Empire_ERP.Infrastructure\\Repositories\\MembershipCardRepository.cs",
+              "ViewState": "AgIAACsBAAAAAAAAAADwvzsBAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-11T10:23:21.542Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "POSTransactionRepository.cs",
+              "DocumentMoniker": "D:\\Source Code Cloud\\AL_NOOR_10042026\\Empire_ERP.Infrastructure\\Repositories\\POSTransactionRepository.cs",
+              "RelativeDocumentMoniker": "Empire_ERP.Infrastructure\\Repositories\\POSTransactionRepository.cs",
+              "ToolTip": "D:\\Source Code Cloud\\AL_NOOR_10042026\\Empire_ERP.Infrastructure\\Repositories\\POSTransactionRepository.cs",
+              "RelativeToolTip": "Empire_ERP.Infrastructure\\Repositories\\POSTransactionRepository.cs",
+              "ViewState": "AgIAAKwCAAAAAAAAAAA+wL8CAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-11T11:31:42.672Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ClosingShop.cshtml",
+              "DocumentMoniker": "D:\\Source Code Cloud\\AL_NOOR_10042026\\Empire_ERP\\Views\\ClosingShop\\ClosingShop.cshtml",
+              "RelativeDocumentMoniker": "Empire_ERP\\Views\\ClosingShop\\ClosingShop.cshtml",
+              "ToolTip": "D:\\Source Code Cloud\\AL_NOOR_10042026\\Empire_ERP\\Views\\ClosingShop\\ClosingShop.cshtml",
+              "RelativeToolTip": "Empire_ERP\\Views\\ClosingShop\\ClosingShop.cshtml",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAADoAAABhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-07-25T13:33:21.805Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "style.css",
+              "DocumentMoniker": "D:\\Source Code Cloud\\AL_NOOR_10042026\\Empire_ERP\\wwwroot\\css\\style.css",
+              "RelativeDocumentMoniker": "Empire_ERP\\wwwroot\\css\\style.css",
+              "ToolTip": "D:\\Source Code Cloud\\AL_NOOR_10042026\\Empire_ERP\\wwwroot\\css\\style.css",
+              "RelativeToolTip": "Empire_ERP\\wwwroot\\css\\style.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-07-25T13:58:21.007Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Source Code Cloud\\AL_NOOR_10042026\\Empire_ERP\\Views\\POSTransactions\\Index.cshtml",
+              "RelativeDocumentMoniker": "Empire_ERP\\Views\\POSTransactions\\Index.cshtml",
+              "ToolTip": "D:\\Source Code Cloud\\AL_NOOR_10042026\\Empire_ERP\\Views\\POSTransactions\\Index.cshtml",
+              "RelativeToolTip": "Empire_ERP\\Views\\POSTransactions\\Index.cshtml",
+              "ViewState": "AgIAAAsCAAAAAAAAAADwvyICAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-08-11T10:46:53.793Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "empr_helper.js",
+              "DocumentMoniker": "D:\\Source Code Cloud\\AL_NOOR_10042026\\Empire_ERP\\wwwroot\\js\\Customjs\\empr_helper.js",
+              "RelativeDocumentMoniker": "Empire_ERP\\wwwroot\\js\\Customjs\\empr_helper.js",
+              "ToolTip": "D:\\Source Code Cloud\\AL_NOOR_10042026\\Empire_ERP\\wwwroot\\js\\Customjs\\empr_helper.js",
+              "RelativeToolTip": "Empire_ERP\\wwwroot\\js\\Customjs\\empr_helper.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2026-07-20T07:19:52.158Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

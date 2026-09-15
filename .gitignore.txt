@@ -1,0 +1,94 @@
+# Build Folders
+bin/
+obj/
+
+# Visual Studio
+.vs/
+
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Auto-generated files
+*.dbmdl
+*.dbproj.schemaview
+*.jfm
+
+# DotNetCore
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Resharper
+_ReSharper*/
+*.[Rr]e[Ss]harper
+
+# DotCover
+*.dotCover
+
+# NCrunch
+*.ncrunch*
+_NCrunch_*
+
+# DocProject
+*.DocStates
+
+# Backup & reporting files
+_BuildScript.proj
+*.Cache
+*.log
+*.tlog
+*.vspscc
+*.vssscc
+
+# JetBrains Rider
+.idea/
+*.sln.iml
+
+# Visual Studio Code
+.vscode/
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# Application Insights Telemetry
+*.aip
+
+# Web Servers
+.venv/
+*.log
+.env
+.env.local
+
+# OS-specific files
+.DS_Store
+*.swp
+*.swo
+
+# Rider projects
+.idea/
+
+# Database files
+*.mdf
+*.ldf
+
+# IIS
+IISExpress/
+
+# Coverage Reports
+coverage/
+*.coverage
+*.coveragexml
+
+# Publish folder
+publish/
