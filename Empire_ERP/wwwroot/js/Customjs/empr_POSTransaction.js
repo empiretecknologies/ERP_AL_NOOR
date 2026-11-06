@@ -8216,7 +8216,7 @@ var empr_POSTransaction = {
                             debugger;
                             var whtsend = $('#whatsappsend').val();
                             if (whtsend == "Y") {
-                                var amount = (dataModel.Master.NET_TOTAL - dataModel.Master.ITEM_DISCOUNT);
+                                var amount = Number(dataModel.Master.RECV) || 0;
                                 let Whtdata = {
                                     voucherNo: data.data.voucherNo,
                                     amount: amount,
