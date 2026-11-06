@@ -45,6 +45,9 @@ namespace Empire_ERP.Infrastructure.Repositories
                 if (!string.IsNullOrWhiteSpace(sDate) )
                 {
                     List<object> jsonDataResult = new List<object>();
+                    List<object> salesmanSalesResult = new List<object>();
+                    string targetFromDate = null;
+                    string targetToDate = null;
                     using (SqlConnection connection = new SqlConnection(new SQLService().getconnstring()))
                     {
                         string query = $"EXEC POS_TARGET '{sDate}',{common.Branch}";
@@ -54,11 +57,18 @@ namespace Empire_ERP.Infrastructure.Repositories
                         SqlDataReader reader = command.ExecuteReader();
                         while (reader.Read())
                         {
+                            var fromDate = reader["FROM_DATE"] != DBNull.Value? Convert.ToDateTime(reader["FROM_DATE"]).ToString("yyyy-MM-dd"): null;
+                            var toDate = reader["TO_DATE"] != DBNull.Value? Convert.ToDateTime(reader["TO_DATE"]).ToString("yyyy-MM-dd"): null;
+                            if (targetFromDate == null)
+                            {
+                                targetFromDate = fromDate;
+                                targetToDate = toDate;
+                            }
                             var row = new
                             {
                                 BNAME = reader["B_NAME"] != DBNull.Value ? Convert.ToString(reader["B_NAME"]) : string.Empty,
-                                FROMDATE = reader["FROM_DATE"] != DBNull.Value? Convert.ToDateTime(reader["FROM_DATE"]).ToString("yyyy-MM-dd"): null,
-                                TODATE = reader["TO_DATE"] != DBNull.Value? Convert.ToDateTime(reader["TO_DATE"]).ToString("yyyy-MM-dd"): null,
+                                FROMDATE = fromDate,
+                                TODATE = toDate,
                                 TAMT = (reader["TARGET_AMOUNT"] != DBNull.Value && Convert.ToDouble(reader["TARGET_AMOUNT"]) != 0)? Convert.ToString(reader["TARGET_AMOUNT"]): string.Empty,
                                 SAMT = (reader["SALE_AMT"] != DBNull.Value && Convert.ToDouble(reader["SALE_AMT"]) != 0)? Convert.ToString(reader["SALE_AMT"]): string.Empty,
                                 PER = (reader["PERCENTAGE"] != DBNull.Value && Convert.ToDouble(reader["PERCENTAGE"]) != 0)? Convert.ToString(reader["PERCENTAGE"]): string.Empty,
@@ -69,9 +79,44 @@ namespace Empire_ERP.Infrastructure.Repositories
                             jsonDataResult.Add(row);
                         }
                         reader.Close();
+
+                        if (!string.IsNullOrWhiteSpace(targetFromDate) && !string.IsNullOrWhiteSpace(targetToDate))
+                        {
+                            string salesmanQuery = $@"SELECT ISNULL(PT.PARTY_NAME, 'Unassigned') AS SNAME,
+                                                     X.TOTAL
+                                                     FROM (
+                                                         SELECT M.SALESMAN, ISNULL(SUM(M.RECV), 0) AS TOTAL
+                                                         FROM TBL_POS_MASTER M
+                                                         WHERE M.BCODE = {common.Branch}
+                                                         AND M.DLT = 'T'
+                                                         AND M.BILL_STATUS = 'P'
+                                                         AND M.V_DATE BETWEEN '{targetFromDate}' AND '{targetToDate}'
+                                                         GROUP BY M.SALESMAN
+                                                     ) X
+                                                     OUTER APPLY (
+                                                         SELECT TOP 1 PARTY_NAME
+                                                         FROM TBL_PARTY_TYPES
+                                                         WHERE PARTY_CODE = X.SALESMAN
+                                                         AND PARTY_TYPE_CODE = 9
+                                                     ) PT
+                                                     ORDER BY X.TOTAL DESC";
+                            SqlCommand salesmanCommand = new SqlCommand(salesmanQuery, connection);
+                            SqlDataReader salesmanReader = salesmanCommand.ExecuteReader();
+                            while (salesmanReader.Read())
+                            {
+                                var salesmanRow = new
+                                {
+                                    SNAME = salesmanReader["SNAME"] != DBNull.Value ? Convert.ToString(salesmanReader["SNAME"]) : string.Empty,
+                                    TOTAL = salesmanReader["TOTAL"] != DBNull.Value ? Convert.ToString(salesmanReader["TOTAL"]) : "0"
+                                };
+                                salesmanSalesResult.Add(salesmanRow);
+                            }
+                            salesmanReader.Close();
+                        }
                     }
 
                     response.data = jsonDataResult;
+                    response.data2 = salesmanSalesResult;
                     response.msg = "";
                     response.msgType = 1;
                 }

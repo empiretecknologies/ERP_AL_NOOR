@@ -3,6 +3,7 @@
     ClosingData: [],
     ClosingBalance: 0,
     tData: TargetData.data[0],
+    sData: (TargetData && TargetData.data2) ? TargetData.data2 : [],
     InitEvents: function () {
 
         $(document).ready(function () {
@@ -17,6 +18,7 @@
             empr_ClosingShop.InitQuickSearchGrid();
 
             empr_ClosingShop.SetDataInTargetModel(empr_ClosingShop.tData);
+            empr_ClosingShop.SetSalesmanWiseSales(empr_ClosingShop.sData);
             empr_ClosingShop.InitReportType();
             debugger;
             $('#BtnGet').click(function () {
@@ -212,6 +214,30 @@
         } catch (e) {
             $("#perBar").css("width", "0%");
             $("#per").text("0%");
+        }
+    },
+    SetSalesmanWiseSales: function (list) {
+        var $list = $("#salesmanSalesList");
+        $list.empty();
+        if (!list || list.length === 0) {
+            $list.append($('<div class="empire-salesman-empty"></div>').text("No salesman-wise sales"));
+            return;
+        }
+        var grandTotal = 0;
+        for (var i = 0; i < list.length; i++) {
+            grandTotal += parseFloat((list[i] && list[i].total) || 0) || 0;
+        }
+        for (var i = 0; i < list.length; i++) {
+            var item = list[i] || {};
+            var name = item.sname || "";
+            var amountValue = parseFloat(item.total || 0) || 0;
+            var total = empr_ClosingShop.formatCurrency(item.total || 0);
+            var per = grandTotal === 0 ? 0 : (amountValue / grandTotal) * 100;
+            var $row = $('<div class="empire-salesman-row"></div>');
+            $row.append($('<span class="empire-salesman-name"></span>').text(name));
+            $row.append($('<span class="empire-salesman-per"></span>').text(per.toFixed(2) + "%"));
+            $row.append($('<span class="empire-salesman-amt"></span>').text(total));
+            $list.append($row);
         }
     },
 

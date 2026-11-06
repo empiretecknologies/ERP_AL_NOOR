@@ -491,6 +491,78 @@
             font-size: 16px;
         }
 
+    .header-right .header-fields {
+        flex-wrap: nowrap;
+        align-items: center;
+        min-height: 22px;
+        height: 22px !important;
+    }
+
+    .membership-card-field {
+        display: inline-flex;
+        align-items: center;
+        position: relative;
+        margin-left: 2px;
+        width: 175px;
+        flex: 0 0 175px;
+    }
+
+        .membership-card-field > i {
+            position: absolute;
+            left: 7px;
+            font-size: 11px;
+            color: #055a87;
+            z-index: 1;
+            pointer-events: none;
+        }
+
+    .header .header-right .membership-card-field input#CardDisc {
+        width: 100%;
+        height: 22px;
+        padding: 0 8px 0 24px;
+        background-color: #fff;
+        color: #055a87;
+        border: 1px solid #fff;
+        font-weight: 600;
+        font-size: 12px;
+        border-radius: 4px;
+        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.18);
+    }
+
+        .header .header-right .membership-card-field input#CardDisc::placeholder {
+            color: #055a87;
+            opacity: 0.75;
+            font-weight: 600;
+        }
+
+        .header .header-right .membership-card-field input#CardDisc:focus {
+            outline: none;
+            box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.55);
+            border-color: #fff;
+        }
+
+    .header .header-right input#CADD {
+        display: none;
+    }
+
+    @@media (max-width: 768px) {
+        .header {
+            height: auto !important;
+            min-height: 45px;
+        }
+
+        .header-right .header-fields {
+            flex-wrap: wrap;
+            height: auto !important;
+            row-gap: 4px;
+        }
+
+        .membership-card-field {
+            width: 100%;
+            flex: 1 1 100%;
+        }
+    }
+
 </style>
 <header>
     <div class="headerdiv">
@@ -539,7 +611,7 @@
                 <input id="TRANS_ID" type="hidden" class="discountunit" value="0" style="display: none;">
                 <input id="ExpTranId" type="hidden" class="discountunit" value="0" style="display: none;">
                 <input id="EXPVOUCHER_NO" type="hidden" class="discountunit" value="0" style="display: none;">
-                <div class="d-flex" style="float:right;width: 100%;gap:1px;height: 22px;">
+                <div class="d-flex header-fields" style="float:right;width: 100%;gap:1px;height: 22px;">
                     <input class="form-control" id="COMM" type="number" placeholder="Commision" style="width: 100px;margin-right: 2px;text-align: center;" autocomplete="off">
                     <div id="SalesmanName" style="height: 22px !important;width: 245px !important;border-radius: 4px;margin-right: 2px;padding: 2px;"></div>
                     <div style="border-left: 2px solid white; height: 22px; margin-right: 5px;"></div>
@@ -548,7 +620,11 @@
                         <button class="historyBtn" id="historyBtn" title="Ctrl+H">History</button>
                     </div>
                     <input class="form-control" type="text" id="CNAME" placeholder="Name" style="width: 120px; margin-left: 2px;" autocomplete="off">
-                    <input class="form-control" type="text" id="CADD" placeholder="Address" style="margin-left: 2px;width: 45%" autocomplete="off">
+                    <div class="membership-card-field">
+                        <i class="fas fa-id-card" aria-hidden="true"></i>
+                        <input class="form-control" type="text" name="name" id="CardDisc" value="" placeholder="Membership Card" autocomplete="off">
+                    </div>
+                    <input class="form-control" type="text" id="CADD" placeholder="Address" autocomplete="off">
                     <button class="expenseButton" id="expenseButton" title="Ctrl+E" style="width: 132px;"> <i class="fas fa-wallet"></i> Expense</button>
                 </div>
             </div>
@@ -1042,14 +1118,6 @@
                     <div class="billing-row" role="listitem">
                         <span class="billing-row__label">Net Total</span>
                         <span class="billing-row__value" id="NetTotal">0</span>
-                    </div>
-                    <div class="billing-row" role="listitem">
-                        <div class="col-6">
-                            <span class="billing-row__label">Membership Card</span>
-                        </div>
-                        <div class="col-6">
-                            <input type="text" name="name" id="CardDisc" value="" class="form-control">
-                        </div>
                     </div>
                     <div class="billing-row row d-flex align-items-center" role="listitem">
                         <div class="col-5">

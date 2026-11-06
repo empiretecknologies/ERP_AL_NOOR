@@ -153,6 +153,75 @@
         font-size: 12px;
         color: #aaa;
     }
+
+    .empire-salesman-section {
+        border-top: 0.5px solid #e2e8f0;
+        padding: 12px 18px 14px;
+        background: #ffffff;
+    }
+
+    .empire-salesman-title {
+        font-size: 11px;
+        font-weight: 600;
+        color: #055a87;
+        text-transform: capitalize;
+        letter-spacing: 0.5px;
+        margin-bottom: 8px;
+    }
+
+    .empire-salesman-list {
+        max-height: 160px;
+        overflow-y: auto;
+    }
+
+    .empire-salesman-row {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 8px 0;
+        border-bottom: 0.5px solid #e2e8f0;
+        gap: 12px;
+    }
+
+        .empire-salesman-row:last-child {
+            border-bottom: none;
+        }
+
+    .empire-salesman-name {
+        font-size: 13px;
+        font-weight: 500;
+        color: #1a202c;
+        flex: 1;
+        min-width: 0;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    }
+
+    .empire-salesman-per {
+        font-size: 13px;
+        font-weight: 500;
+        color: #1a202c;
+        text-align: center;
+        white-space: nowrap;
+        min-width: 72px;
+        width: 72px;
+    }
+
+    .empire-salesman-amt {
+        font-size: 13px;
+        font-weight: 500;
+        color: #1a202c;
+        text-align: right;
+        white-space: nowrap;
+        min-width: 90px;
+    }
+
+    .empire-salesman-empty {
+        font-size: 13px;
+        color: #64748b;
+        padding: 6px 0;
+    }
 </style>
 <div class="card">
     <div class="row">
@@ -245,7 +314,7 @@
                 <h5 class="modal-title">Target Summary</h5>
                 <button type="button" class="btn-close close" data-bs-dismiss="modal" aria-label="Close" style="filter:invert(1);"></button>
             </div>
-            <div class="modal-body" style="padding:0; overflow-y:auto; max-height:350px;">
+            <div class="modal-body" style="padding:0; overflow-y:auto; max-height:480px;">
                 <div class="empire-summary-grid">
                     <div class="empire-row full-width">
                         <span class="empire-label">Branch Name</span>
@@ -284,6 +353,10 @@
                         <div class="empire-percent-fill" id="perBar" style="width:0%"></div>
                     </div>
                     <span class="empire-percent-label" id="per"> </span>
+                </div>
+                <div class="empire-salesman-section">
+                    <div class="empire-salesman-title">Salesman-wise Sales</div>
+                    <div class="empire-salesman-list" id="salesmanSalesList"></div>
                 </div>
             </div>
         </div>
